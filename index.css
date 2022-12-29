@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Avenirnext;
+    src: url(AvenirNextR.ttf);
+}
+p{
+    font-size:30px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+ul{
+    position: absolute;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(249, 249, 249);
+    width:96%;
+    height:12.5%;
+}
+li{
+    float:left;
+}
+li:hover{
+    transition: all 0.5s;
+    background-color: rgb(243, 243, 243);
+}
+li:active{
+    transition: all 0.5s;
+    background-color: rgb(223, 223, 223);
+}
+.li1{
+    width:20%;
+}
+.li2{
+    width:15%;
+}
+li a{
+    line-height:62.5px;
+    text-align:center;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.a1{
+    color:black;
+}
+.buttonmain{
+    background-color: rgba(0,0,0,0);
+    border:3px solid;
+    border-radius: 10px;
+    outline:none;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 10px 100px;
+    border-color:white;
+    font-size: 24px;
+    text-decoration: none;
+    color:white;
+}
+.buttonmain:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color:rgb(233, 233, 233)
+}
+.buttonmain:active{
+    transition: all 0.5s;
+    background-color: white;
+    color:rgb(185, 185, 185)
+}
